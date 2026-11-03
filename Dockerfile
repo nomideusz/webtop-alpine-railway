@@ -1,4 +1,4 @@
-FROM linuxserver/webtop:alpine-kde-086b5b34-ls144
+FROM linuxserver/webtop:alpine-kde-b1bc61ac-ls152
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
